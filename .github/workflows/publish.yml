@@ -28,4 +28,4 @@ jobs:
       with:
         password: ${{ secrets.GITHUB_TOKEN }}
         repository-url: https://github.com/seyedmahdivakhshoori/pdf-ocr
-        package-dir: dist/ 
+        packages-dir: dist/ 
