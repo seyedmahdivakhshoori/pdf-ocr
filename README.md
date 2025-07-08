@@ -210,7 +210,7 @@ python pdf_ocr.py
 
 اگر سوال یا مشکلی دارید:
 
-- [ایجاد Issue](https://github.com/seyedmahdivakhshoori/pdf-ocr/issues)
+- [Issue](https://github.com/seyedmahdivakhshoori/pdf-ocr/issues)
 - ایمیل: seyedmahdivakhshoori@gmail.com
 
 ---
