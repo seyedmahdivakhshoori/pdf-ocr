@@ -1,4 +1,4 @@
-name: Publish Python Package
+name: Publish to GitHub Packages
 
 on:
   release:
@@ -26,16 +26,9 @@ jobs:
     - name: Build package
       run: python -m build
     
-    - name: Publish to PyPI
-      uses: pypa/gh-action-pypi-publish@release/v1
-      with:
-        password: ${{ secrets.PYPI_API_TOKEN }}
-        packages-dir: dist/
-        skip-existing: true
-    
     - name: Publish to GitHub Packages
       run: |
-        echo ${{ secrets.GITHUB_TOKEN }} | python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+        python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
       env:
         TWINE_USERNAME: __token__
         TWINE_PASSWORD: ${{ secrets.GITHUB_TOKEN }} 

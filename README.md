@@ -6,10 +6,6 @@
 ![PyQt6](https://img.shields.io/badge/PyQt6-6.4+-green.svg)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5%2F4-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/seyedmahdivakhshoori/pdf-ocr)
-![GitHub issues](https://img.shields.io/github/issues/seyedmahdivakhshoori/pdf-ocr)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/seyedmahdivakhshoori/pdf-ocr)
-![GitHub contributors](https://img.shields.io/github/contributors/seyedmahdivakhshoori/pdf-ocr)
 
 **نرم‌افزار هوشمند استخراج اطلاعات از فایل‌های PDF اظهارنامه با استفاده از هوش مصنوعی**
 
@@ -214,7 +210,7 @@ python pdf_ocr.py
 
 اگر سوال یا مشکلی دارید:
 
-- [Issue](https://github.com/seyedmahdivakhshoori/pdf-ocr/issues)
+- [ایجاد Issue](https://github.com/seyedmahdivakhshoori/pdf-ocr/issues)
 - ایمیل: seyedmahdivakhshoori@gmail.com
 
 ---
